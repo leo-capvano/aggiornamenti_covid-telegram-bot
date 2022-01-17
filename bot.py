@@ -109,7 +109,7 @@ def msg_handler(msg):
     
 
 #registering the bot
-bot = telepot.Bot("1258623971:AAGwqZDtRGRTKWjSs7CMmgebOMteV_ZIXvI")
+bot = telepot.Bot("your_key")
 #defining a message loop that will process all the messages.
 #In particular we are specifying that the "chat" messages (from keyboard) will be processed by the mgs_handler function
 #and the "callback_query" messages (from predefined buttons) will be processed by on_callback_query function 
